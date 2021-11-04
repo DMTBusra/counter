@@ -7,11 +7,11 @@ let container = document.getElementsByClassName("container")[0];
 let count = 0;
 container.addEventListener("click",(e)=>{
     
-    if(e.target.className =="decrease"){
+    if(e.target.className =="increase"){
         count += 1;
         color(count);      
     }
-    else if(e.target.className =="increase"){
+    else if(e.target.className =="decrease"){
         count -= 1;
         color(count);     
     }
